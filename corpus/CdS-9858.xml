@@ -1,27 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 
-<!--                          REMARQUES PRÉALABLES
-Voici le balisage que je propose pour les lettres transcrites par Sarah. 
-J'ai choisi de baliser que les personnes et les lieux nommés explicitememt dans la lettre.
-J'ai aussi choisi de retranscrire la mise en page originale (alignememt du texte, annotations, marquage du début de ligne)
--->
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CdS-9858">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">Letter from Constance de Salm to an unknown addressee (Dyck, 27 October
+        <title xml:lang="en">Letter from Constance de Salm to an unknown addressee (Dyck, October 27th
           1836)</title>
         <title xml:lang="fr">Lettre de Constance de Salm à une destinataire inconnue (Dyck, le 27
           Octobre 1836)</title>
         <title xml:lang="de">Brief von Constance de Salm an eine unbekannte Adressatin (Dyck, 27.
           Oktober 1836)</title>
         <principal>
-          <persName ref="#chloe.dile">
-            <forename>Chloé</forename>
-            <surname>Dilé</surname>
-          </persName>
+          <orgName ref="#DHIP">Deutsches Historisches Institut Paris</orgName>
         </principal>
       </titleStmt>
       <publicationStmt>
@@ -35,7 +26,7 @@ J'ai aussi choisi de retranscrire la mise en page originale (alignememt du texte
       <seriesStmt>
         <title>La correspondance de Constance de Salm (1767-1845)</title>
         <respStmt>
-          <resp>Encadrement scientifique et technique du projet</resp>
+          <resp>Scientific and technical project management</resp>
           <persName ref="#mareike.konig">
             <forename>Mareike</forename>
             <surname>König</surname>
@@ -50,7 +41,7 @@ J'ai aussi choisi de retranscrire la mise en page originale (alignememt du texte
           </persName>
         </respStmt>
         <respStmt>
-          <resp>Réalisation d'une édition nativement numérique</resp>
+          <resp>Producing a native digital edition</resp>
           <persName ref="#chloe.dile">
             <forename>Chloé</forename>
             <surname>Dilé</surname>
@@ -62,7 +53,6 @@ J'ai aussi choisi de retranscrire la mise en page originale (alignememt du texte
           <msIdentifier>
             <institution>Archiv Schloss Dyck</institution>
             <repository>Fonds Constance de Salm</repository>
-            <!--<idno></idno>-->
           </msIdentifier>
         </msDesc>
         <biblStruct>
@@ -87,9 +77,9 @@ J'ai aussi choisi de retranscrire la mise en page originale (alignememt du texte
 
     <encodingDesc>
       <projectDesc>
-        <p xml:lang="en">This document was encoded as part of the German Historical Institut's
+        <p xml:lang="en">This document was encoded as part of the German Historical Institute's
           digital edition of Constance de Salm's correspondence.</p>
-        <p xml:lang="fr">L'encodage de ce document s'est fait dans le cadre du projet de l'édition
+        <p xml:lang="fr">L'encodage de ce document a été réalisé dans le cadre de l'édition
           numérique de la correspondance de Constance de Salm par l'Institut historique
           allemand.</p>
         <p xml:lang="de">Die Kodierung dieses Dokuments erfolgte im Rahmen des Projekts Digitales
@@ -111,15 +101,17 @@ J'ai aussi choisi de retranscrire la mise en page originale (alignememt du texte
             Bindestrich gekennzeichnet sind) wurden beibehalten.</p>
         </hyphenation>
         <normalization>
-          <p xml:lang="en">To make the correspondence easier to read, we have chosen to indicate the
+          <p xml:lang="en">To make the correspondence easier to read, we have chosen to tag the
             abbreviations and to resolve them.</p>
           <p xml:lang="fr">Pour faciliter la lecture de la correspondance, nous avons choisi
-            d'indiquer les abréviations par des balises et de les résoudres.</p>
+            d'indiquer les abréviations par des balises et de les résoudre.</p>
           <p xml:lang="de">Um das Lesen der Korrespondenz zu erleichtern, haben wir uns dafür
             entschieden, die Abkürzungen mit Tags zu versehen und aufzulösen.</p>
         </normalization>
       </editorialDecl>
     </encodingDesc>
+    
+    
     <profileDesc>
       <langUsage>
         <language ident="fr"/>
@@ -153,36 +145,34 @@ J'ai aussi choisi de retranscrire la mise en page originale (alignememt du texte
               </choice> de Salm</persName>.)</fw>
           <title rend="align(center)">Lettre <lb/>à </title>
           <dateline rend="align(right)"><placeName ref="https://www.geonames.org/2894637"
-              >Dyck</placeName>, ce <date>27 Octobre 1836</date>.</dateline>
+              >Dyck</placeName>, ce <date when-iso="1836-10-27">27 Octobre 1836</date>.</dateline>
         </opener>
-        <p>La saison s'avance, <rs type="person" ref="#unknownAddressee">Madame</rs>, je vais
-          bientôt<lb/> retourner à <placeName ref="https://www.geonames.org/2988507"
+        <p>La saison s'avance,Madame, je vais bientôt<lb/> retourner à 
+          <placeName ref="https://www.geonames.org/2988507"
             >Paris</placeName>. Je vous ai écrit peu de temps après<lb/> mon arrivée ici, et ne
           recevant point de vos nouvelles je<lb/> commence à m'en inquiéter. Ecrivez-moi au moins
           quelques<lb/> mots, et que je sache avant de quitter la campagne comment<lb/> vous vous
           portez et quand nous pourrons nous revoir. Nous<lb/> avons eu tout l'été des temps affreux
           qui ont dû vous<lb/> faire beaucoup de mal, et qui m'en ont fait aussi<lb/> pourtant je
           vais un peu mieux, et j'espère pouvoir bien<lb/> supporter le voyage; je resterai encore
-          jusqu'à la fin de<lb/> <date>novembre</date>; écrivez-moi donc d'ici là je vous prie encore.<lb/> La
+          jusqu'à la fin de<lb/> <date when="1836-11">novembre</date>; écrivez-moi donc d'ici là je vous prie encore.<lb/> La
             <persName ref="https://viaf.org/viaf/49532186">famille Maison</persName> est toujours
           dans notre voisinage; mais<lb/> nous nous voyons bien rarement; car la jeune <rs
             type="person" ref="#vicomtesseMaison">dame</rs> qui<lb/> est grosse ne peut supporter la
           voiture, et cette année, je<lb/> n'ai pu me résoudre à faire aucune visite; ils
-          voudraient<lb/> tous partir dans le commencement de <date>Novembre</date>, je ne sais 
-          <pb n="2"/>
-          <lb/> s'ils le pourront. Le <persName ref="https://viaf.org/viaf/49532186"><choice>
+          voudraient<lb/> tous partir dans le commencement de <date when="1836-11">Novembre</date>, je ne sais 
+          <pb n="2"/><lb/> s'ils le pourront. Le <persName ref="https://viaf.org/viaf/49532186"><choice>
               <abbr>Cte</abbr>
               <expan>C<ex>om</ex>te</expan>
             </choice> Joseph</persName> vient de temps en temps chasser<lb/> avec mon <rs
             type="person" ref="https://viaf.org/viaf/1847152636116120051820">mari</rs> et <persName
-            ref="#FelixBaronFrancq">Félix</persName>, et me donne des nouvelles de<lb/> ces <rs
-            type="person">dames</rs>. Voilà tout ce que je peux vous en dire. quant<lb/> au <rs
-            type="person" ref="#unknownMarechal">Maréchal</rs>, il est toujours à <placeName
+            ref="#FelixBaronFrancq">Félix</persName>, et me donne des nouvelles de<lb/> ces 
+            dames. Voilà tout ce que je peux vous en dire. quant<lb/> au Maréchal, il est toujours à <placeName
             ref="https://www.geonames.org/2988507">Paris</placeName>, ce que vous savez<lb/> sans
           doute.</p>
 
         <p>Je vous adresse cette lettre à <placeName ref="https://www.geonames.org/6454159"
-            >Orléans</placeName>, <rs type="person" ref="#unknownAddressee">Madame</rs>,<lb/>
+            >Orléans</placeName>, Madame,<lb/>
           supposant que vous y êtes encore; mais en parlant<lb/> d'<placeName
             ref="https://www.geonames.org/6454159">Orléans</placeName>, je me rappelle tout à coup
           une chose que j'ai<lb/> voulu souvent vous demander: <persName
@@ -198,19 +188,19 @@ J'ai aussi choisi de retranscrire la mise en page originale (alignememt du texte
           laquelle vous prenez tant d'intérêt ; mon<lb/> petitfils <persName ref="#FelixBaronFrancq"
             >Félix</persName> ne m'a pas quittée, et sa santé s'est extrême-<lb break="no"/>ment
           fortifiée, ce qui me cause une bien vive satisfaction. Son<lb/> frère <persName
-            ref="AlexandreFracq">Alexandre</persName> qui vient d'être nommé officier (dans les
+            ref="AlexandreFrancq">Alexandre</persName> qui vient d'être nommé officier (dans les
             <orgName type="military" ref="#DragonsCavalerie">Dragons</orgName>)<lb/> est dans ce
           moment en congé, et avec nous, il y restera jus-<lb break="no"/>qu'au <date>1er Janvier</date> : je
           n'ai point besoin de vous dire à<lb/> quel point ces consolations me sont nécessaires.</p>
         <closer>
-          <salute>Adieu donc ou à revoir, <rs type="person" ref="#unknownAddressee">Madame</rs>, je
+          <salute>Adieu donc ou à revoir, Madame, je
             vous embrasse<lb/> de tout mon cœur, et vous assure de nouveau de ma bien<lb/> sincère
             amitié.</salute>
           <signed rend="align(right)">(signé) <persName ref="https://viaf.org/viaf/121051">Constance
               de Salm</persName>.</signed>
         </closer>
         <postscript>
-          <p>Mille hommages du <rs type="person" ref="#unknownPrince">prince</rs>.<lb/> faudra-t-il
+          <p>Mille hommages du <rs type="person" ref="https://viaf.org/viaf/1847152636116120051820">prince</rs>.<lb/> faudra-t-il
             emporter le manuscrit ?</p>
         </postscript>
       </div>
