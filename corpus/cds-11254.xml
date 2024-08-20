@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CdS-11254">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Letter from Constance de Salm to Anne Bignan (place unknown,
+                    April, 15th 1842)</title>
+                <title xml:lang="fr">Lettre de Constance de Salm à Anne Bignan (lieu inconnu, le 15
+                    Avril 1842)</title>
+                <title xml:lang="de">Brief von Constance de Salm an Anne Bignan (unbekannter Ort,
+                    15. April 1842)</title>
+                <principal>
+                    <orgName ref="#DHIP">Deutsches Historisches Institut Paris</orgName>
+                </principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Deutsches Historisches Institut Paris</publisher>
+                <authority/>
+                <availability status="restricted" n="CC BY-NC-ND 4.0">
+                    <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+                </availability>
+                <date when="2024-06-17"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>La correspondance de Constance de Salm (1767-1845)</title>
+                <respStmt>
+                    <resp>Scientific and technical project management</resp>
+                    <persName ref="#mareike.konig">
+                        <forename>Mareike</forename>
+                        <surname>König</surname>
+                    </persName>
+                    <persName ref="#floriane.chiffoleau">
+                        <forename>Floriane</forename>
+                        <surname>Chiffoleau</surname>
+                    </persName>
+                    <persName ref="#pauline.spychala">
+                        <forename>Pauline</forename>
+                        <surname>Spychala</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Producing a native digital edition</resp>
+                    <persName ref="#chloe.dile">
+                        <forename>Chloé</forename>
+                        <surname>Dilé</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Archiv Schloss Dyck</institution>
+                        <repository>Fonds Constance de Salm</repository>
+                    </msIdentifier>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <title>CdS/89/081</title>
+                        <idno>https://constance-de-salm.de/archiv/#/document/11254</idno>
+                    </analytic>
+                    <monogr>
+                        <title>Die Korrespondenz der Constance de Salm (1767-1845). Inventar des
+                            Fonds Salm der Société des Amis du Vieux Toulon et de sa Région und des
+                            Bestands Constance de Salm im Archiv Schloss Dyck (Mitgliedsarchiv der
+                            Vereinigten Adelsarchive im Rheinland e.V.). Elektronische
+                            Edition</title>
+                        <imprint>
+                            <publisher>DHI Paris</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>2021</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">This document was encoded as part of the German Historical
+                    Institute's digital edition of Constance de Salm's correspondence.</p>
+                <p xml:lang="fr">L'encodage de ce document a été réalisé dans le cadre de
+                    l'édition numérique de la correspondance de Constance de Salm par l'Institut
+                    historique allemand.</p>
+                <p xml:lang="de">Die Kodierung dieses Dokuments erfolgte im Rahmen des Projekts
+                    Digitales Edition der Korrespondenz von Constance de Salm durch das Deutsches
+                    Historisches Institut.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p xml:lang="en">No correction</p>
+                    <p xml:lang="fr">Aucune correction</p>
+                    <p xml:lang="de">Keine Korrektur</p>
+                </correction>
+                <hyphenation eol="all" rend="sh">
+                    <p xml:lang="en">All word breaks at the end of a line (mainly indicated by a
+                        single hyphen) have been retained.</p>
+                    <p xml:lang="fr">Toutes les coupures de mots pour fin de ligne (indiquées
+                        principalement avec un tiret simple) ont été conservées.</p>
+                    <p xml:lang="de">Alle Worttrennungen für Zeilenende (die hauptsächlich mit einem
+                        einfachen Bindestrich gekennzeichnet sind) wurden beibehalten.</p>
+                </hyphenation>
+                <normalization>
+                    <p xml:lang="en">To make the correspondence easier to read, we have chosen to
+                        tag the abbreviations and to resolve them.</p>
+                    <p xml:lang="fr">Pour faciliter la lecture de la correspondance, nous avons
+                        choisi d'indiquer les abréviations par des balises et de les résoudre.</p>
+                    <p xml:lang="de">Um das Lesen der Korrespondenz zu erleichtern, haben wir uns
+                        dafür entschieden, die Abkürzungen mit Tags zu versehen und aufzulösen.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://viaf.org/viaf/121051">Salm, Constance de (CdS)</persName>
+                    <!--<placeName ref="https://www.geonames.org/2894637">???</placeName>-->
+                    <date when-iso="1842-04-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://viaf.org/viaf/76409620">Bignan, Anne</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <pb n="1" facs="CdS-b1-08gd-0.jpg"/>
+                <opener>
+                <fw type="letterhead" rend="align(left)"><date when="1842">1842</date>
+                <lb/> (de <persName ref="https://viaf.org/viaf/121051"><choice><abbr>Mme</abbr><expan>M<ex>ada</ex>me</expan></choice> la 
+                <lb/> <choice><abbr>Pcesse</abbr><expan>P<ex>rin</ex>cesse</expan></choice> de Salm</persName>.)</fw>
+                <title rend="align(center)">Lettre
+                <lb/> À <persName ref="https://viaf.org/viaf/76409620"><choice><abbr>Mr</abbr><expan>M<ex>onsieu</ex>r</expan></choice> Bignan</persName>.</title>
+                </opener>
+                <p>Voici, <rs type="person" ref="https://viaf.org/viaf/76409620">Monsieur</rs>, la copie de votre excellent
+                <lb/> article. Je l'ai fait lire devant le <rs type="person" ref="https://viaf.org/viaf/121051">Prince</rs> qui en
+                <lb/> a été enchanté, et cette seconde lecture m'a fait à moi-
+                <lb/> même plus d'impression encore que la première : rien de
+                <lb/> mieux raisonné, de mieux écrit, ni de plus honorable
+                <lb/> pour moi que ce bel article que je citerai et repro-
+                <lb break="no"/>duirai même dans mes Mémoires, si cela vous est
+                <lb/> agréable ; mais c'est ce dont nous reparlerons.</p>
+                <p>Quand vous aurez relu cette copie je vous prierai
+                <lb/> de me la rendre, et j'en ferai faire à l'instant
+                <lb/> une nouvelle qui sera écrite avec plus de soin.</p>
+                <p>Je vous envoie aussi un exemplaire de mes
+                <lb/> Œuvres ; mais qui n’est pas celui que je vous destine,
+                <lb/> et que je fais relier avec un fac simile.</p>
+                <p>Mes yeux me font beaucoup souffrir <date when-iso="1842-04-15">aujour-
+                <lb break="no"/>d’hui</date>. Venez me voir bientôt je vous prie.</p>
+                <closer>
+                <salute>Mille amitiés des plus sincères.</salute>
+                <dateline rend="align(left)">ce <date when-iso="1842-04-15">Vendredi 15 Avril 1842</date>.</dateline> <signed rend="align(right)">(signé) <persName ref="https://viaf.org/viaf/121051">Constance de Salm</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
