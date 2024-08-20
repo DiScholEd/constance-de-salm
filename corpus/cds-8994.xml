@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CdS-8994">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Letter from Constance de Salm to the Prinz von Neuwied (Dyck,
+                  June, 18th 1826)</title>
+                <title xml:lang="fr">Lettre de Constance de Salm au Prince de Neuwied (Dyck, le 18
+                    Juin 1826)</title>
+                <title xml:lang="de">Brief von Constance von Salm an den Prinz von Neuwied (Dyck,
+                    18. Juni 1826)</title>
+                <principal>
+                    <orgName ref="#DHIP">Deutsches Historisches Institut Paris</orgName>
+                </principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Deutsches Historisches Institut Paris</publisher>
+                <authority/>
+                <availability status="restricted" n="CC BY-NC-ND 4.0">
+                    <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+                </availability>
+                <date when="2022-05-21"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>La correspondance de Constance de Salm (1767-1845)</title>
+                <respStmt>
+                    <resp>Scientific and technical project management</resp>
+                    <persName ref="#mareike.konig">
+                        <forename>Mareike</forename>
+                        <surname>König</surname>
+                    </persName>
+                    <persName ref="#floriane.chiffoleau">
+                        <forename>Floriane</forename>
+                        <surname>Chiffoleau</surname>
+                    </persName>
+                    <persName ref="#pauline.spychala">
+                        <forename>Pauline</forename>
+                        <surname>Spychala</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Producing a native digital edition</resp>
+                    <persName ref="#chloe.dile">
+                        <forename>Chloé</forename>
+                        <surname>Dilé</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Archiv Schloss Dyck</institution>
+                        <repository>Fonds Constance de Salm</repository>
+                    </msIdentifier>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <title>CdS/02_3/147</title>
+                        <idno>https://constance-de-salm.de/archiv/#/document/8994</idno>
+                    </analytic>
+                    <monogr>
+                        <title>Die Korrespondenz der Constance de Salm (1767-1845). Inventar des
+                            Fonds Salm der Société des Amis du Vieux Toulon et de sa Région und des
+                            Bestands Constance de Salm im Archiv Schloss Dyck (Mitgliedsarchiv der
+                            Vereinigten Adelsarchive im Rheinland e.V.). Elektronische
+                            Edition</title>
+                        <imprint>
+                            <publisher>DHI Paris</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>2021</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="en">This document was encoded as part of the German Historical
+                    Institute's digital edition of Constance de Salm's correspondence.</p>
+                <p xml:lang="fr">L'encodage de ce document a été réalisé dans le cadre de
+                    l'édition numérique de la correspondance de Constance de Salm par l'Institut
+                    historique allemand.</p>
+                <p xml:lang="de">Die Kodierung dieses Dokuments erfolgte im Rahmen des Projekts
+                    Digitales Edition der Korrespondenz von Constance de Salm durch das Deutsches
+                    Historisches Institut.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p xml:lang="en">No correction</p>
+                    <p xml:lang="fr">Aucune correction</p>
+                    <p xml:lang="de">Keine Korrektur</p>
+                </correction>
+                <hyphenation eol="all" rend="sh">
+                    <p xml:lang="en">All word breaks at the end of a line (mainly indicated by a
+                        single hyphen) have been retained.</p>
+                    <p xml:lang="fr">Toutes les coupures de mots pour fin de ligne (indiquées
+                        principalement avec un tiret simple) ont été conservées.</p>
+                    <p xml:lang="de">Alle Worttrennungen für Zeilenende (die hauptsächlich mit einem
+                        einfachen Bindestrich gekennzeichnet sind) wurden beibehalten.</p>
+                </hyphenation>
+                <normalization>
+                    <p xml:lang="en">To make the correspondence easier to read, we have chosen to tag the
+                        abbreviations and to resolve them.</p>
+                    <p xml:lang="fr">Pour faciliter la lecture de la correspondance, nous avons choisi
+                        d'indiquer les abréviations par des balises et de les résoudre.</p>
+                    <p xml:lang="de">Um das Lesen der Korrespondenz zu erleichtern, haben wir uns dafür
+                        entschieden, die Abkürzungen mit Tags zu versehen und aufzulösen.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://viaf.org/viaf/121051">Salm, Constance de (CdS)</persName>
+                    <placeName ref="https://www.geonames.org/2894637">Dyck (Schloss), Gde.
+                        Jüchen</placeName>
+                    <date when-iso="1826-06-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://viaf.org/viaf/39504469">Wied-Neuwied, Maximilian
+                        Alexander Philipp, Prinz zu</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb n="1" facs="CdS-b1-06s6-0.jpg"/>
+                <opener>
+                    <fw type="letterhead" rend="align(left)"><date when="1826">1826</date><lb/> (de <persName
+                            ref="https://viaf.org/viaf/121051"><choice>
+                                <abbr>Mme</abbr>
+                                <expan>M<ex>ada</ex>me</expan>
+                            </choice> la Princesse<lb/> de Salm</persName>)</fw>
+                    <title rend="align(center)">Lettre <lb/> A <persName
+                            ref="https://viaf.org/viaf/39504469"><choice><abbr>M</abbr><expan>M<ex>onsieur</ex></expan></choice> le Prince de Neuwied</persName>.</title>
+                    <dateline rend="align(right)"><placeName ref="https://www.geonames.org/2894637"
+                            >Dyck</placeName>, ce <date when-iso="1826-06-18">18 juin 1826</date>.</dateline>
+                </opener>
+                <p>À mon retour de <placeName ref="https://www.geonames.org/2988507"
+                        >Paris</placeName> où j'ai eu une maladie qui m'a tellement <lb/> accablée
+                    que j'ai à peine la force d'écrire ce billet, j'ai trouvé ici, <rs type="person"
+                        ref="https://viaf.org/viaf/39504469">Prince</rs>, <lb/> le charmant
+                    dessin dont vous enrichissez mon <hi rend="underline">Album</hi>. Je me suis <lb/> hâtée de l'y placer et
+                    je vous ai mis près du <rs type="person" ref="https://viaf.org/viaf/308713023"
+                        >Prince</rs> votre frère, dont <lb/> le petit ouvrage a reçu à
+                        <placeName ref="https://www.geonames.org/2988507">Paris</placeName> des
+                    éloges que je vous prie de lui <lb/> transmettre. Je désirerais vivement que
+                    vous puissiez ainsi que lui, <lb/> recevoir chez moi, mes remerciements. Nous
+                    sommes voisins, comme <lb/> on l'est à la campagne, sur-tout dans ce temps où il
+                    semble qu'il n'y <lb/> ait plus ni distance, ni séparation. Qu'est-ce d'ailleurs
+                    que quelques <lb/> lieues pour un grand et célèbre voyageur ?</p>
+                <p>Je n'ai d'autres distractions à vous offrir que ma bibliothèque <lb/> et nos
+                    jardins. Mais vous vous verrez en place d'honneur dans la <lb/> première et les
+                    autres dessinés par un anglais fort habile vous <lb/> offriront d'agréables
+                    promenades. Je n'ose parler de la <hi rend="underline">botanique</hi>, <lb/>
+                    elle est du ressort de mon <rs type="person" ref="https://viaf.org/viaf/121051"
+                        >mari</rs>.</p>
+                <closer>
+                    <salute>Recevez <rs type="person" ref="https://viaf.org/viaf/121051">Prince</rs>,
+                        avec les assurances de mon estime particulière <lb/> pour votre mérite et
+                        votre personne celles de ma considération <lb/> distinguée.</salute>
+                    <signed rend="align(right)">(Signé) <persName ref="https://viaf.org/viaf/121051"
+                            >Constance de Salm</persName>.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>
