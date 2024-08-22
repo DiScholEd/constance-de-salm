@@ -1,219 +1,221 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CdS-11256">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:lang="en">Letter from Constance de Salm to Mr. de Pongerville (place
-                    unknown, April, 20th 1842)</title>
-                <title xml:lang="fr">Lettre de Constance de Salm à Mr. de Pongerville (lieu inconnu,
-                    le 20 Avril 1842)</title>
-                <title xml:lang="de">Brief von Constance de Salm an Herrn de Pongerville
-                    (unbekannter Ort, 20. April 1842)</title>
-                <principal>
-                    <orgName ref="#DHIP">Deutsches Historisches Institut Paris</orgName>
-                </principal>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>Deutsches Historisches Institut Paris</publisher>
-                <authority/>
-                <availability status="restricted" n="CC BY-NC-ND 4.0">
-                    <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
-                </availability>
-                <date when="2022-05-21"/>
-            </publicationStmt>
-            <seriesStmt>
-                <title>La correspondance de Constance de Salm (1767-1845)</title>
-                <respStmt>
-                    <resp>Scientific and technical project management</resp>
-                    <persName ref="#mareike.konig">
-                        <forename>Mareike</forename>
-                        <surname>König</surname>
-                    </persName>
-                    <persName ref="#floriane.chiffoleau">
-                        <forename>Floriane</forename>
-                        <surname>Chiffoleau</surname>
-                    </persName>
-                    <persName ref="#pauline.spychala">
-                        <forename>Pauline</forename>
-                        <surname>Spychala</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Producing a native digital edition</resp>
-                    <persName ref="#chloe.dile">
-                        <forename>Chloé</forename>
-                        <surname>Dilé</surname>
-                    </persName>
-                </respStmt>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>Archiv Schloss Dyck</institution>
-                        <repository>Fonds Constance de Salm</repository>
-                        <idno>CdS/19/002</idno>
-                    </msIdentifier>
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <title>CdS/89/082-083</title>
-                        <idno>https://constance-de-salm.de/archiv/#/document/11256</idno>
-                    </analytic>
-                    <monogr>
-                        <title>Die Korrespondenz der Constance de Salm (1767-1845). Inventar des
-                            Fonds Salm der Société des Amis du Vieux Toulon et de sa Région und des
-                            Bestands Constance de Salm im Archiv Schloss Dyck (Mitgliedsarchiv der
-                            Vereinigten Adelsarchive im Rheinland e.V.). Elektronische
-                            Edition</title>
-                        <imprint>
-                            <publisher>DHI Paris</publisher>
-                            <pubPlace>Paris</pubPlace>
-                            <date>2021</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Letter from Constance de Salm to Mr. de Pongerville (place
+					unknown, April, 20th 1842)</title>
+				<title xml:lang="fr">Lettre de Constance de Salm à Mr. de Pongerville (lieu inconnu,
+					le 20 Avril 1842)</title>
+				<title xml:lang="de">Brief von Constance de Salm an Herrn de Pongerville
+					(unbekannter Ort, 20. April 1842)</title>
+				<principal>
+					<orgName ref="#DHIP">Deutsches Historisches Institut Paris</orgName>
+				</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Deutsches Historisches Institut Paris</publisher>
+				<authority/>
+				<availability status="restricted" n="CC BY-NC-ND 4.0">
+					<licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+				</availability>
+				<date when="2022-05-21"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>La correspondance de Constance de Salm (1767-1845)</title>
+				<respStmt>
+					<resp>Scientific and technical project management</resp>
+					<persName ref="#mareike.konig">
+						<forename>Mareike</forename>
+						<surname>König</surname>
+					</persName>
+					<persName ref="#floriane.chiffoleau">
+						<forename>Floriane</forename>
+						<surname>Chiffoleau</surname>
+					</persName>
+					<persName ref="#pauline.spychala">
+						<forename>Pauline</forename>
+						<surname>Spychala</surname>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Producing a native digital edition</resp>
+					<persName ref="#chloe.dile">
+						<forename>Chloé</forename>
+						<surname>Dilé</surname>
+					</persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution>Archiv Schloss Dyck</institution>
+						<repository>Fonds Constance de Salm</repository>
+						<idno>CdS/19/002</idno>
+					</msIdentifier>
+				</msDesc>
+				<biblStruct>
+					<analytic>
+						<title>CdS/89/082-083</title>
+						<idno>https://constance-de-salm.de/archiv/#/document/11256</idno>
+					</analytic>
+					<monogr>
+						<title>Die Korrespondenz der Constance de Salm (1767-1845). Inventar des
+							Fonds Salm der Société des Amis du Vieux Toulon et de sa Région und des
+							Bestands Constance de Salm im Archiv Schloss Dyck (Mitgliedsarchiv der
+							Vereinigten Adelsarchive im Rheinland e.V.). Elektronische
+							Edition</title>
+						<imprint>
+							<publisher>DHI Paris</publisher>
+							<pubPlace>Paris</pubPlace>
+							<date>2021</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
 
-        <encodingDesc>
-            <projectDesc>
-                <p xml:lang="en">This document was encoded as part of the German Historical
-                    Institute's digital edition of Constance de Salm's correspondence.</p>
-                <p xml:lang="fr">L'encodage de ce document a été réalisé dans le cadre de l'édition
-                    numérique de la correspondance de Constance de Salm par l'Institut historique
-                    allemand.</p>
-                <p xml:lang="de">Die Kodierung dieses Dokuments erfolgte im Rahmen des Projekts
-                    Digitales Edition der Korrespondenz von Constance de Salm durch das Deutsches
-                    Historisches Institut.</p>
-            </projectDesc>
-            <editorialDecl>
-                <correction>
-                    <p xml:lang="en">No correction</p>
-                    <p xml:lang="fr">Aucune correction</p>
-                    <p xml:lang="de">Keine Korrektur</p>
-                </correction>
-                <hyphenation eol="all" rend="sh">
-                    <p xml:lang="en">All word breaks at the end of a line (mainly indicated by a
-                        single hyphen) have been retained.</p>
-                    <p xml:lang="fr">Toutes les coupures de mots pour fin de ligne (indiquées
-                        principalement avec un tiret simple) ont été conservées.</p>
-                    <p xml:lang="de">Alle Worttrennungen für Zeilenende (die hauptsächlich mit einem
-                        einfachen Bindestrich gekennzeichnet sind) wurden beibehalten.</p>
-                </hyphenation>
-                <normalization>
-                    <p xml:lang="en">To make the correspondence easier to read, we have chosen to
-                        tag the abbreviations and to resolve them.</p>
-                    <p xml:lang="fr">Pour faciliter la lecture de la correspondance, nous avons
-                        choisi d'indiquer les abréviations par des balises et de les résoudre.</p>
-                    <p xml:lang="de">Um das Lesen der Korrespondenz zu erleichtern, haben wir uns
-                        dafür entschieden, die Abkürzungen mit Tags zu versehen und aufzulösen.</p>
-                </normalization>
-            </editorialDecl>
-        </encodingDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="en">This document was encoded as part of the German Historical
+					Institute's digital edition of Constance de Salm's correspondence.</p>
+				<p xml:lang="fr">L'encodage de ce document a été réalisé dans le cadre de l'édition
+					numérique de la correspondance de Constance de Salm par l'Institut historique
+					allemand.</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments erfolgte im Rahmen des Projekts
+					Digitales Edition der Korrespondenz von Constance de Salm durch das Deutsches
+					Historisches Institut.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction>
+					<p xml:lang="en">No correction</p>
+					<p xml:lang="fr">Aucune correction</p>
+					<p xml:lang="de">Keine Korrektur</p>
+				</correction>
+				<hyphenation eol="all" rend="sh">
+					<p xml:lang="en">All word breaks at the end of a line (mainly indicated by a
+						single hyphen) have been retained.</p>
+					<p xml:lang="fr">Toutes les coupures de mots pour fin de ligne (indiquées
+						principalement avec un tiret simple) ont été conservées.</p>
+					<p xml:lang="de">Alle Worttrennungen für Zeilenende (die hauptsächlich mit einem
+						einfachen Bindestrich gekennzeichnet sind) wurden beibehalten.</p>
+				</hyphenation>
+				<normalization>
+					<p xml:lang="en">To make the correspondence easier to read, we have chosen to
+						tag the abbreviations and to resolve them.</p>
+					<p xml:lang="fr">Pour faciliter la lecture de la correspondance, nous avons
+						choisi d'indiquer les abréviations par des balises et de les résoudre.</p>
+					<p xml:lang="de">Um das Lesen der Korrespondenz zu erleichtern, haben wir uns
+						dafür entschieden, die Abkürzungen mit Tags zu versehen und aufzulösen.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
 
-        <profileDesc>
-            <langUsage>
-                <language ident="fr"/>
-            </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="https://viaf.org/viaf/121051">Salm, Constance de (CdS)</persName>
-                    <!--<placeName ref="https://www.geonames.org/2894637">???</placeName>-->
-                    <date when-iso="1842-04-20"/>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="https://d-nb.info/gnd/116265809">Sanson de Pongerville,
-                        Jean-Baptiste</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-    </teiHeader>
+		<profileDesc>
+			<langUsage>
+				<language ident="fr"/>
+			</langUsage>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="https://viaf.org/viaf/121051">Salm, Constance de (CdS)</persName>
+					<!--<placeName ref="https://www.geonames.org/2894637">???</placeName>-->
+					<date when-iso="1842-04-20"/>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="https://d-nb.info/gnd/116265809">Sanson de Pongerville,
+						Jean-Baptiste</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
 
-    <text>
-        <body>
-            <div>
-                <pb n="1" facs="CdS-b1-08gf-0.jpg"/>
-                <opener>
-                    <fw type="letterhead" rend="align(left)"><date when="1842">1842</date>
-                        <lb/> (de <persName ref="https://viaf.org/viaf/121051"><choice>
-                                <abbr>Mme</abbr>
-                                <expan>M<ex>ada</ex>me</expan>
-                            </choice> la <lb/>
-                            <choice>
-                                <abbr>Pcesse</abbr>
-                                <expan>P<ex>rin</ex>cesse</expan>
-                            </choice> de Salm</persName>.)</fw>
-                    <title rend="align(center)">Lettre <lb/> À <persName
-                            ref="https://d-nb.info/gnd/116265809"><choice>
-                                <abbr>Mr.</abbr>
-                                <expan>M<ex>onsieu</ex>r</expan>
-                            </choice> de Pongerville</persName>.</title>
-                </opener>
-                <p>Vous avez tant de choses à penser dans ce <lb/> moment, <rs type="person"
-                        ref="https://d-nb.info/gnd/116265809">Monsieur</rs>, et j'étais encore si
-                    souffrante <lb/> hier que je n'ai pu vous dire qu'une partie de ce <lb/> que
-                    j’aurais désiré pouvoir vous expliquer ce matin <lb/> dans mon cabinet. Vous
-                    voyez déjà, et j'en suis <lb/> bien confuse, qu’il s'agit encore de votre
-                    article <lb/> sur mes <hi rend="underline">Œuvres complètes</hi>. J’avais pensé,
-                    comme <lb/> vous, qu’il pourrait être mis dans le Constitu- <lb break="no"
-                    />tionnel, mais si, comme vous le croyez, il devrait <lb/> alors être en plus
-                    d'une colonne, ce serait trop <lb/> peu pour tout ce que je désire de vous dans
-                        <pb n="2"/>
-                    <lb/> cette occasion, et j'ai à ma disposition des journaux <lb/> peut-être
-                    moins importants, mais qui nous donne- <lb break="no"/>raient beaucoup plus de
-                    place.</p>
-                <p>Je vous envoie, <rs type="person" ref="https://d-nb.info/gnd/116265809"
-                        >Monsieur</rs>, un exemplaire <lb/> de mes Œuvres, qui je vous prie de
-                    vouloir bien <lb/> placer dans votre Bibliothèque en attendant <hi
-                        rend="underline">l'autre</hi>
-                    <lb/> que je fais relier, et je vous engage, lorsque vous <lb/> aurez un moment
-                    de véritable loisir, à en lire <lb/> avec attention <hi rend="underline"
-                        >l’avant-propos</hi> dont j’ai fait <lb/> une sorte de résumé de ma vie
-                    littéraire. Vous <lb/> y verrez l'accueil que la plupart de mes ouvrages <lb/>
-                    ont reçu du public dans des temps déjà fort <lb/> loin de nous, et surtout de
-                    vous, et vous comprendrez <lb/> le prix que je dois attacher à ce fruit de mes
-                    longs <lb/> travaux, à cette dernière collection que j'en fais, qui <lb/> est
-                    presque mon testament littéraire, et combien je <lb/> dois désirer qu’un article
-                    fait par vous sur mes <lb/> nombreux ouvrages ait toute l'étendue et l'impor-
-                        <lb break="no"/>tance qu’il peut avoir.</p>
-                <p>Excusez, je vous prie, en grâce ces détails <lb/> dont je sens que vous n'avez
-                    pas besoin, mais je <lb/> suis auteur, femme et vieille, et c'en est plus <lb/>
-                    qu’il n'en faut pour autoriser tout ce que je <lb/> viens de vous dire. <lb/>
-                    J'ajouterai qu'au nombre des articles qui <lb/> ont déjà été faits sur cette
-                    nouvelle Édition de <lb/> mes Œuvres, et que l'on m'a communiqués, il <lb/> s'en
-                    trouve un tellement bien fait, tellement littéraire <lb/> que je me propose de
-                    le faire paraitre à la fin de <pb n="3" facs="CdS-b1-08gf-1.jpg"/>
-                    <lb/> mes Mémoires en manière de <hi rend="underline">pièce à l'appui</hi>, et
-                    que <lb/> si vous l’approuvez j'y mettrai aussi le vôtre qui <lb/> en est une
-                    des meilleures et des plus honorables.</p>
-                <p>Je pense tout-à-coup, que quoique ce billet <lb/> soit devenu une véritable
-                    lettre, je ne vous ai pas <lb/> encore dit que, vous sachant dans ce moment
-                    acca- <lb break="no"/>blé de visites d’auteurs, d’ouvrages à juger <lb/>
-                    <choice>
-                        <abbr>&amp;'.</abbr>
-                        <expan>etc.</expan>
-                    </choice>
-                    <choice>
-                        <abbr>&amp;'.</abbr>
-                        <expan>etc.</expan>
-                    </choice> je vous prie de ne penser à moi, c'est-à-dire <lb/> à mon article, que
-                    quand vous serez entièrement libre <lb/> et que les prix et les suffrages de
-                    votre académie <lb/> seront aussi donnés, mais que je vous voie souvent <lb/>
-                    d’ici là, ainsi que <rs type="person" ref="#MadamedePongerville">Madame</rs>,
-                    c’est ce que je vous <lb/> demande en vous recommandant surtout de ne pas <lb/>
-                    oublier <hi rend="underline"><date when-iso="1842-04-25">lundi</date></hi>.</p>
-                <closer>
-                    <salute>À bientôt donc <rs type="person" ref="https://d-nb.info/gnd/116265809"
-                            >Monsieur</rs> et <rs type="person" ref="#MadamedePongerville"
-                            >Madame</rs>; <lb/> mille nouvelles assurances de tous mes sentiments
-                        <lb/> d'amitié des plus sincères et des plus distinguées.</salute>
-                    <dateline rend="align(left)">ce <date when-iso="1842-04-20">20 avril
-                        1842</date>.</dateline>
-                    <signed rend="align(right)">(signé) <persName ref="https://viaf.org/viaf/121051"
-                            >Constance de Salm</persName>.</signed>
-                </closer>
-            </div>
-        </body>
-    </text>
+	<text>
+		<body>
+			<div>
+				<pb n="1" facs="iiif:10.34847/nkl.74bft54o/6312a0714fea301f6499ee495b9939e9d2f8978b"/>
+				<opener>
+					<fw type="letterhead" rend="align(left)"><date when="1842">1842</date>
+						<lb/> (de <persName ref="https://viaf.org/viaf/121051"><choice>
+								<abbr>Mme</abbr>
+								<expan>M<ex>ada</ex>me</expan>
+							</choice> la <lb/>
+							<choice>
+								<abbr>Pcesse</abbr>
+								<expan>P<ex>rin</ex>cesse</expan>
+							</choice> de Salm</persName>.)</fw>
+					<title rend="align(center)">Lettre <lb/> À <persName
+							ref="https://d-nb.info/gnd/116265809"><choice>
+								<abbr>Mr.</abbr>
+								<expan>M<ex>onsieu</ex>r</expan>
+							</choice> de Pongerville</persName>.</title>
+				</opener>
+				<p>Vous avez tant de choses à penser dans ce <lb/> moment, <rs type="person"
+						ref="https://d-nb.info/gnd/116265809">Monsieur</rs>, et j'étais encore si
+					souffrante <lb/> hier que je n'ai pu vous dire qu'une partie de ce <lb/> que
+					j’aurais désiré pouvoir vous expliquer ce matin <lb/> dans mon cabinet. Vous
+					voyez déjà, et j'en suis <lb/> bien confuse, qu’il s'agit encore de votre
+					article <lb/> sur mes <hi rend="underline">Œuvres complètes</hi>. J’avais pensé,
+					comme <lb/> vous, qu’il pourrait être mis dans le Constitu- <lb break="no"
+					/>tionnel, mais si, comme vous le croyez, il devrait <lb/> alors être en plus
+					d'une colonne, ce serait trop <lb/> peu pour tout ce que je désire de vous dans
+						<pb n="2"
+						facs="iiif:10.34847/nkl.74bft54o/ae6da217614ea972cdf4b5365f532e2f01508b0b"/>
+					<lb/> cette occasion, et j'ai à ma disposition des journaux <lb/> peut-être
+					moins importants, mais qui nous donne- <lb break="no"/>raient beaucoup plus de
+					place.</p>
+				<p>Je vous envoie, <rs type="person" ref="https://d-nb.info/gnd/116265809"
+						>Monsieur</rs>, un exemplaire <lb/> de mes Œuvres, qui je vous prie de
+					vouloir bien <lb/> placer dans votre Bibliothèque en attendant <hi
+						rend="underline">l'autre</hi>
+					<lb/> que je fais relier, et je vous engage, lorsque vous <lb/> aurez un moment
+					de véritable loisir, à en lire <lb/> avec attention <hi rend="underline"
+						>l’avant-propos</hi> dont j’ai fait <lb/> une sorte de résumé de ma vie
+					littéraire. Vous <lb/> y verrez l'accueil que la plupart de mes ouvrages <lb/>
+					ont reçu du public dans des temps déjà fort <lb/> loin de nous, et surtout de
+					vous, et vous comprendrez <lb/> le prix que je dois attacher à ce fruit de mes
+					longs <lb/> travaux, à cette dernière collection que j'en fais, qui <lb/> est
+					presque mon testament littéraire, et combien je <lb/> dois désirer qu’un article
+					fait par vous sur mes <lb/> nombreux ouvrages ait toute l'étendue et l'impor-
+						<lb break="no"/>tance qu’il peut avoir.</p>
+				<p>Excusez, je vous prie, en grâce ces détails <lb/> dont je sens que vous n'avez
+					pas besoin, mais je <lb/> suis auteur, femme et vieille, et c'en est plus <lb/>
+					qu’il n'en faut pour autoriser tout ce que je <lb/> viens de vous dire. <lb/>
+					J'ajouterai qu'au nombre des articles qui <lb/> ont déjà été faits sur cette
+					nouvelle Édition de <lb/> mes Œuvres, et que l'on m'a communiqués, il <lb/> s'en
+					trouve un tellement bien fait, tellement littéraire <lb/> que je me propose de
+					le faire paraitre à la fin de <pb n="3"
+						facs="iiif:10.34847/nkl.74bft54o/4699dcbbef5a5161d1dd4f880a880c49f078537b"/>
+					<lb/> mes Mémoires en manière de <hi rend="underline">pièce à l'appui</hi>, et
+					que <lb/> si vous l’approuvez j'y mettrai aussi le vôtre qui <lb/> en est une
+					des meilleures et des plus honorables.</p>
+				<p>Je pense tout-à-coup, que quoique ce billet <lb/> soit devenu une véritable
+					lettre, je ne vous ai pas <lb/> encore dit que, vous sachant dans ce moment
+					acca- <lb break="no"/>blé de visites d’auteurs, d’ouvrages à juger <lb/>
+					<choice>
+						<abbr>&amp;'.</abbr>
+						<expan>etc.</expan>
+					</choice>
+					<choice>
+						<abbr>&amp;'.</abbr>
+						<expan>etc.</expan>
+					</choice> je vous prie de ne penser à moi, c'est-à-dire <lb/> à mon article, que
+					quand vous serez entièrement libre <lb/> et que les prix et les suffrages de
+					votre académie <lb/> seront aussi donnés, mais que je vous voie souvent <lb/>
+					d’ici là, ainsi que <rs type="person" ref="#MadamedePongerville">Madame</rs>,
+					c’est ce que je vous <lb/> demande en vous recommandant surtout de ne pas <lb/>
+					oublier <hi rend="underline"><date when-iso="1842-04-25">lundi</date></hi>.</p>
+				<closer>
+					<salute>À bientôt donc <rs type="person" ref="https://d-nb.info/gnd/116265809"
+							>Monsieur</rs> et <rs type="person" ref="#MadamedePongerville"
+							>Madame</rs>; <lb/> mille nouvelles assurances de tous mes sentiments
+						<lb/> d'amitié des plus sincères et des plus distinguées.</salute>
+					<dateline rend="align(left)">ce <date when-iso="1842-04-20">20 avril
+						1842</date>.</dateline>
+					<signed rend="align(right)">(signé) <persName ref="https://viaf.org/viaf/121051"
+							>Constance de Salm</persName>.</signed>
+				</closer>
+			</div>
+		</body>
+	</text>
 </TEI>

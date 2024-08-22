@@ -1,212 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<?xml-model href="../../Guidelines/out/Documentation-Correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CdS-2776">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:lang="en">Letter from Constance de Salm to Monsieur Prous (place unknown,
-                    August 5th 1812)</title>
-                <title xml:lang="fr">Lettre de Constance de Salm à Monsieur Prous (lieu inconnu, le
-                    5 Août 1812)</title>
-                <title xml:lang="de">Brief von Constance de Salm an Herrn Prous (unbekannter Ort, 5.
-                    August 1812)</title>
-                <principal>
-                    <orgName ref="#DHIP">Deutsches Historisches Institut Paris</orgName>
-                </principal>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>Deutsches Historisches Institut Paris</publisher>
-                <authority/>
-                <availability status="restricted" n="CC BY-NC-ND 4.0">
-                    <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
-                </availability>
-                <date when="2022-06-24"/>
-            </publicationStmt>
-            <seriesStmt>
-                <title>La correspondance de Constance de Salm (1767-1845)</title>
-                <respStmt>
-                    <resp>Scientific and technical project management</resp>
-                    <persName ref="#mareike.konig">
-                        <forename>Mareike</forename>
-                        <surname>König</surname>
-                    </persName>
-                    <persName ref="#floriane.chiffoleau">
-                        <forename>Floriane</forename>
-                        <surname>Chiffoleau</surname>
-                    </persName>
-                    <persName ref="#pauline.spychala">
-                        <forename>Pauline</forename>
-                        <surname>Spychala</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Producing a native digital edition</resp>
-                    <persName ref="#chloe.dile">
-                        <forename>Chloé</forename>
-                        <surname>Dilé</surname>
-                    </persName>
-                </respStmt>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <institution>Archives de la Société des Amis du Vieux Toulon</institution>
-                        <repository>Fonds Salm de Toulon</repository>
-                    </msIdentifier>
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <title>C08/S65/011-013</title>
-                        <idno>https://constance-de-salm.de/archiv/#/document/2776</idno>
-                    </analytic>
-                    <monogr>
-                        <title>Die Korrespondenz der Constance de Salm (1767-1845). Inventar des
-                            Fonds Salm der Société des Amis du Vieux Toulon et de sa Région und des
-                            Bestands Constance de Salm im Archiv Schloss Dyck (Mitgliedsarchiv der
-                            Vereinigten Adelsarchive im Rheinland e.V.). Elektronische
-                            Edition</title>
-                        <imprint>
-                            <publisher>DHI Paris</publisher>
-                            <pubPlace>Paris</pubPlace>
-                            <date>2021</date>
-                        </imprint>
-                    </monogr>
-                    <relatedItem copyOf="#CdS-2776">
-                        <msDesc>
-                            <msIdentifier>
-                                <institution>Archives de la Société des Amis du Vieux
-                                    Toulon</institution>
-                                <repository>Fonds Salm de Toulon</repository>
-                            </msIdentifier>
-                            <msContents>
-                                <msItem>
-                                    <title>C06/S43/015</title>
-                                    <title xml:lang="en">Letter from Constance de Salm to Monsieur
-                                        Prous (Dyck, September 5th 1815)</title>
-                                    <title xml:lang="fr">Lettre de Constance de Salm à Monsieur
-                                        Prous (Dyck, le 5 Septembre 1815)</title>
-                                    <title xml:lang="de">Brief von Constance von Salm an Herrn Prous
-                                        (Dyck, 5. September 1815)</title>
-                                    <docDate when-iso="1815-09-05"/>
-                                    <idno>https://constance-de-salm.de/archiv/#/document/4276</idno>
-                                </msItem>
-                            </msContents>
-                        </msDesc>
-                    </relatedItem>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Letter from Constance de Salm to Monsieur Prous (place unknown,
+					August 5th 1812)</title>
+				<title xml:lang="fr">Lettre de Constance de Salm à Monsieur Prous (lieu inconnu, le
+					5 Août 1812)</title>
+				<title xml:lang="de">Brief von Constance de Salm an Herrn Prous (unbekannter Ort, 5.
+					August 1812)</title>
+				<principal>
+					<orgName ref="#DHIP">Deutsches Historisches Institut Paris</orgName>
+				</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Deutsches Historisches Institut Paris</publisher>
+				<authority/>
+				<availability status="restricted" n="CC BY-NC-ND 4.0">
+					<licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+				</availability>
+				<date when="2022-06-24"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>La correspondance de Constance de Salm (1767-1845)</title>
+				<respStmt>
+					<resp>Scientific and technical project management</resp>
+					<persName ref="#mareike.konig">
+						<forename>Mareike</forename>
+						<surname>König</surname>
+					</persName>
+					<persName ref="#floriane.chiffoleau">
+						<forename>Floriane</forename>
+						<surname>Chiffoleau</surname>
+					</persName>
+					<persName ref="#pauline.spychala">
+						<forename>Pauline</forename>
+						<surname>Spychala</surname>
+					</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Producing a native digital edition</resp>
+					<persName ref="#chloe.dile">
+						<forename>Chloé</forename>
+						<surname>Dilé</surname>
+					</persName>
+				</respStmt>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<institution>Archives de la Société des Amis du Vieux Toulon</institution>
+						<repository>Fonds Salm de Toulon</repository>
+					</msIdentifier>
+				</msDesc>
+				<biblStruct>
+					<analytic>
+						<title>C08/S65/011-013</title>
+						<idno>https://constance-de-salm.de/archiv/#/document/2776</idno>
+					</analytic>
+					<monogr>
+						<title>Die Korrespondenz der Constance de Salm (1767-1845). Inventar des
+							Fonds Salm der Société des Amis du Vieux Toulon et de sa Région und des
+							Bestands Constance de Salm im Archiv Schloss Dyck (Mitgliedsarchiv der
+							Vereinigten Adelsarchive im Rheinland e.V.). Elektronische
+							Edition</title>
+						<imprint>
+							<publisher>DHI Paris</publisher>
+							<pubPlace>Paris</pubPlace>
+							<date>2021</date>
+						</imprint>
+					</monogr>
+					<relatedItem copyOf="#CdS-2776">
+						<msDesc>
+							<msIdentifier>
+								<institution>Archives de la Société des Amis du Vieux
+									Toulon</institution>
+								<repository>Fonds Salm de Toulon</repository>
+							</msIdentifier>
+							<msContents>
+								<msItem>
+									<title>C06/S43/015</title>
+									<title xml:lang="en">Letter from Constance de Salm to Monsieur
+										Prous (Dyck, September 5th 1815)</title>
+									<title xml:lang="fr">Lettre de Constance de Salm à Monsieur
+										Prous (Dyck, le 5 Septembre 1815)</title>
+									<title xml:lang="de">Brief von Constance von Salm an Herrn Prous
+										(Dyck, 5. September 1815)</title>
+									<docDate when="1815-09-05"/>
+									<idno>https://constance-de-salm.de/archiv/#/document/4276</idno>
+								</msItem>
+							</msContents>
+						</msDesc>
+					</relatedItem>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
 
-        <encodingDesc>
-            <projectDesc>
-                <p xml:lang="en">This document was encoded as part of the German Historical
-                    Institute's digital edition of Constance de Salm's correspondence.</p>
-                <p xml:lang="fr">L'encodage de ce document a été réalisé dans le cadre de l'édition
-                    numérique de la correspondance de Constance de Salm par l'Institut historique
-                    allemand.</p>
-                <p xml:lang="de">Die Kodierung dieses Dokuments erfolgte im Rahmen des Projekts
-                    Digitales Edition der Korrespondenz von Constance de Salm durch das Deutsches
-                    Historisches Institut.</p>
-            </projectDesc>
-            <editorialDecl>
-                <correction>
-                    <p xml:lang="en">No correction</p>
-                    <p xml:lang="fr">Aucune correction</p>
-                    <p xml:lang="de">Keine Korrektur</p>
-                </correction>
-                <hyphenation eol="all" rend="sh">
-                    <p xml:lang="en">All word breaks at the end of a line (mainly indicated by a
-                        single hyphen) have been retained.</p>
-                    <p xml:lang="fr">Toutes les coupures de mots pour fin de ligne (indiquées
-                        principalement avec un tiret simple) ont été conservées.</p>
-                    <p xml:lang="de">Alle Worttrennungen für Zeilenende (die hauptsächlich mit einem
-                        einfachen Bindestrich gekennzeichnet sind) wurden beibehalten.</p>
-                </hyphenation>
-                <normalization>
-                    <p xml:lang="en">To make the correspondence easier to read, we have chosen to
-                        tag the abbreviations and to resolve them.</p>
-                    <p xml:lang="fr">Pour faciliter la lecture de la correspondance, nous avons
-                        choisi d'indiquer les abréviations par des balises et de les résoudre.</p>
-                    <p xml:lang="de">Um das Lesen der Korrespondenz zu erleichtern, haben wir uns
-                        dafür entschieden, die Abkürzungen mit Tags zu versehen und aufzulösen.</p>
-                </normalization>
-            </editorialDecl>
-        </encodingDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="en">This document was encoded as part of the German Historical
+					Institute's digital edition of Constance de Salm's correspondence.</p>
+				<p xml:lang="fr">L'encodage de ce document a été réalisé dans le cadre de l'édition
+					numérique de la correspondance de Constance de Salm par l'Institut historique
+					allemand.</p>
+				<p xml:lang="de">Die Kodierung dieses Dokuments erfolgte im Rahmen des Projekts
+					Digitales Edition der Korrespondenz von Constance de Salm durch das Deutsches
+					Historisches Institut.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction>
+					<p xml:lang="en">No correction</p>
+					<p xml:lang="fr">Aucune correction</p>
+					<p xml:lang="de">Keine Korrektur</p>
+				</correction>
+				<hyphenation eol="all" rend="sh">
+					<p xml:lang="en">All word breaks at the end of a line (mainly indicated by a
+						single hyphen) have been retained.</p>
+					<p xml:lang="fr">Toutes les coupures de mots pour fin de ligne (indiquées
+						principalement avec un tiret simple) ont été conservées.</p>
+					<p xml:lang="de">Alle Worttrennungen für Zeilenende (die hauptsächlich mit einem
+						einfachen Bindestrich gekennzeichnet sind) wurden beibehalten.</p>
+				</hyphenation>
+				<normalization>
+					<p xml:lang="en">To make the correspondence easier to read, we have chosen to
+						tag the abbreviations and to resolve them.</p>
+					<p xml:lang="fr">Pour faciliter la lecture de la correspondance, nous avons
+						choisi d'indiquer les abréviations par des balises et de les résoudre.</p>
+					<p xml:lang="de">Um das Lesen der Korrespondenz zu erleichtern, haben wir uns
+						dafür entschieden, die Abkürzungen mit Tags zu versehen und aufzulösen.</p>
+				</normalization>
+			</editorialDecl>
+		</encodingDesc>
 
-        <profileDesc>
-            <langUsage>
-                <language ident="fr"/>
-            </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="https://viaf.org/viaf/121051">Salm, Constance de (CdS)</persName>
-                    <!--<placeName ref="https://www.geonames.org/2894637">???</placeName>-->
-                    <date when-iso="1842-04-20"/>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#HenryProus">Prous, Henry</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-    </teiHeader>
+		<profileDesc>
+			<langUsage>
+				<language ident="fr"/>
+			</langUsage>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="https://viaf.org/viaf/121051">Salm, Constance de (CdS)</persName>
+					<!--<placeName ref="https://www.geonames.org/2894637">???</placeName>-->
+					<date when-iso="1842-04-20"/>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#HenryProus">Prous, Henry</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
 
-    <text>
-        <body>
-            <div>
-                <pb n="1" facs="CdS-b1-022n-0.jpg"/>
-                <opener>
-                    <dateline rend="align(right)"><date when-iso="1812-08-05">5 août
-                        1812</date></dateline>
-                </opener>
-                <p>Voici le livre que j'avais oublié <lb/> aussi bien que vous, <rs type="person"
-                        ref="#HenryProus">Monsieur</rs>.</p>
-                <p>Ne vous tourmentés <lb/> pas de vos vers; ils sont très <lb/> bien, et si tout le
-                    monde n'a <lb/> pas compris ce que vous dites <lb/> il y avait dans le reste de
-                    quoi <lb/> satisfaire les autres.</p>
-                <p>Je rejette toute la faute de <lb/> votre retard sur la chère <lb/>
-                    <persName ref="#Louise">Louise</persName> à qui j'en ferai la guerre <lb/> aussi
-                    bien que <unclear reason="illegible">vXXX XX</unclear> elle n'est <lb/>pas
-                    restée le soir ce qui <lb/> a fait peine à <persName ref="#Sophie"
-                        >Sophie</persName>. <lb/> Je l'embrasse cependant <choice>
-                        <unclear reason="illegible">raXXsoir</unclear>
-                        <unclear reason="illegible">rancœur</unclear>
-                    </choice>
-                    <pb n="2" facs="CdS-b1-022n-1.jpg"/>
-                    <lb/> te <unclear reason="illegible">venXste</unclear>. Vous voulés la <lb/>
-                    bonne chose: voici le <unclear reason="illegible">chXX</unclear>
-                    <lb/> jour venu en était <choice>
-                        <unclear reason="illegible">leXXX</unclear>
-                        <unclear reason="illegible">lu</unclear>
-                    </choice>
-                    <lb/>
-                    <unclear reason="illegible">bXXX</unclear> pièce - grace, non ceux <lb/>
-                    <unclear reason="illegible">valeurs</unclear> - mais ceux <unclear
-                        reason="illegible">jouteurs</unclear>. <lb/> il aura <unclear
-                        reason="illegible">é.orne</unclear> ou <unclear reason="illegible"
-                        >reproché</unclear>
-                    <lb/> plusieurs fois à notre table <lb/> si cela et le reste vous <lb/> engage à
-                    venir nous voir <lb/> et diner avec nous vous, <lb/> serez le très bien reçu.
-                    <lb/> Nous vivons et nous parlons <lb/> aussi raison - vous pourés <lb/> choisir
-                    et vous mettre dans <pb n="3"/>
-                    <lb/> le parti serieux si vous voulez <lb/> balancer ce que vous appellés <lb/>
-                    vos folies d'hiver. -Elles avaient <lb/> bonne grace c'était un jour <lb/> où on
-                    ne peut pécher, et <lb/> il n'y avait d'ailleurs aucun <lb/> péché dans tout
-                    cela.</p>
-                <p>vous croyés à la <lb/> guerre -hèlas ! il me semblait <lb/> que celle des
-                    éléments après <lb/> tant d'autres pouvait satisfaire <lb/> la colère celeste
-                    -mais il <lb/> nous faut sans doute une <lb/> grande punition -pourtant <lb/> je
-                    n'y crois pas. Nous verrons. <pb n="4" facs="CdS-b1-022n-2.jpg"/>
-                    <lb/> J'écris à travers mille choses, aussi <lb/> je ne vous en dis pas une qui
-                    <lb/> vaile. -On rit, on chante, <lb/> on parle près de moi, et je <lb/> sais à
-                    peine si j'écris.</p>
-                <closer>
-                    <salute>Mille salutz amicaux <lb/> de toute la <rs type="person"
-                            ref="#familleSalm">maisonnée</rs>
-                        <lb/>a vous et à tout ce qui vous <lb/> entoure.</salute>
-                    <signed rend="align(center)"><rs type="person"
-                            ref="https://viaf.org/viaf/121051">C</rs></signed>
-                </closer>
-            </div>
-        </body>
-    </text>
+	<text>
+		<body>
+			<div>
+				<pb n="1" facs="iiif:10.34847/nkl.74bft54o/35a9bb4989523d4b215fcf9d08b4d09b6705d1e9"/>
+				<opener>
+					<dateline rend="align(right)"><date when-iso="1812-08-05">5 août
+						1812</date></dateline>
+				</opener>
+				<p>Voici le livre que j'avais oublié <lb/> aussi bien que vous, <rs type="person"
+						ref="#HenryProus">Monsieur</rs>.</p>
+				<p>Ne vous tourmentés <lb/> pas de vos vers; ils sont très <lb/> bien, et si tout le
+					monde n'a <lb/> pas compris ce que vous dites <lb/> il y avait dans le reste de
+					quoi <lb/> satisfaire les autres.</p>
+				<p>Je rejette toute la faute de <lb/> votre retard sur la chère <lb/>
+					<persName ref="#Louise">Louise</persName> à qui j'en ferai la guerre <lb/> aussi
+					bien que <unclear reason="illegible">vXXX XX</unclear> elle n'est <lb/>pas
+					restée le soir ce qui <lb/> a fait peine à <persName ref="#Sophie"
+						>Sophie</persName>. <lb/> Je l'embrasse cependant <choice>
+						<unclear reason="illegible">raXXsoir</unclear>
+						<unclear reason="illegible">rancœur</unclear>
+					</choice>
+					<pb n="2"
+						facs="iiif:10.34847/nkl.74bft54o/3a89ed534adce0c4553cd6ad2bf33b38a3de3abb"/>
+					<lb/> te <unclear reason="illegible">venXste</unclear>. Vous voulés la <lb/>
+					bonne chose: voici le <unclear reason="illegible">chXX</unclear>
+					<lb/> jour venu en était <choice>
+						<unclear reason="illegible">leXXX</unclear>
+						<unclear reason="illegible">lu</unclear>
+					</choice>
+					<lb/>
+					<unclear reason="illegible">bXXX</unclear> pièce - grace, non ceux <lb/>
+					<unclear reason="illegible">valeurs</unclear> - mais ceux <unclear
+						reason="illegible">jouteurs</unclear>. <lb/> il aura <unclear
+						reason="illegible">é.orne</unclear> ou <unclear reason="illegible"
+						>reproché</unclear>
+					<lb/> plusieurs fois à notre table <lb/> si cela et le reste vous <lb/> engage à
+					venir nous voir <lb/> et diner avec nous vous, <lb/> serez le très bien reçu.
+					<lb/> Nous vivons et nous parlons <lb/> aussi raison - vous pourés <lb/> choisir
+					et vous mettre dans <pb n="3"
+						facs="iiif:10.34847/nkl.74bft54o/d6596699d5e309365cf4125026c0c4b71e033a4f"/>
+					<lb/> le parti serieux si vous voulez <lb/> balancer ce que vous appellés <lb/>
+					vos folies d'hiver. -Elles avaient <lb/> bonne grace c'était un jour <lb/> où on
+					ne peut pécher, et <lb/> il n'y avait d'ailleurs aucun <lb/> péché dans tout
+					cela.</p>
+				<p>vous croyés à la <lb/> guerre -hèlas ! il me semblait <lb/> que celle des
+					éléments après <lb/> tant d'autres pouvait satisfaire <lb/> la colère celeste
+					-mais il <lb/> nous faut sans doute une <lb/> grande punition -pourtant <lb/> je
+					n'y crois pas. Nous verrons. <pb n="4"
+						facs="iiif:10.34847/nkl.74bft54o/3eef0010d3ad77d18327685cddaafe55613cf9f3"/>
+					<lb/> J'écris à travers mille choses, aussi <lb/> je ne vous en dis pas une qui
+					<lb/> vaile. -On rit, on chante, <lb/> on parle près de moi, et je <lb/> sais à
+					peine si j'écris.</p>
+				<closer>
+					<salute>Mille salutz amicaux <lb/> de toute la <rs type="person"
+							ref="#familleSalm">maisonnée</rs>
+						<lb/>a vous et à tout ce qui vous <lb/> entoure.</salute>
+					<signed rend="align(center)"><rs type="person"
+							ref="https://viaf.org/viaf/121051">C</rs></signed>
+				</closer>
+			</div>
+		</body>
+	</text>
 </TEI>
